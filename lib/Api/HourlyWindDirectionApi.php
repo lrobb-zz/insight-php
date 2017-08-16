@@ -127,7 +127,7 @@ class HourlyWindDirectionApi
         $queryParams = [];
         $headerParams = [];
         $formParams = [];
-        $_header_accept = $this->apiClient->selectHeaderAccept(['application/vnd.wdt+json; version=1', 'application/json']);
+        $_header_accept = $this->apiClient->selectHeaderAccept(['application/vnd.wdt+json; version=1']);
         if (!is_null($_header_accept)) {
             $headerParams['Accept'] = $_header_accept;
         }
@@ -235,7 +235,7 @@ class HourlyWindDirectionApi
         $queryParams = [];
         $headerParams = [];
         $formParams = [];
-        $_header_accept = $this->apiClient->selectHeaderAccept(['application/vnd.wdt+json; version=1', 'application/json']);
+        $_header_accept = $this->apiClient->selectHeaderAccept(['application/vnd.wdt+json; version=1']);
         if (!is_null($_header_accept)) {
             $headerParams['Accept'] = $_header_accept;
         }
