@@ -1,10 +1,6 @@
 # Swagger\Client\AssetsApi
 
-<<<<<<< HEAD
 All URIs are relative to *https://insight.api.wdtinc.com*
-=======
-All URIs are relative to *http://insight.api.wdtinc.com*
->>>>>>> b4b592f0f75f5d6ba0501be7b1212d3e9f9102d2
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -108,11 +104,7 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
-<<<<<<< HEAD
  - **Content-Type**: application/json
-=======
- - **Content-Type**: application/vnd.wdt+json; version=1
->>>>>>> b4b592f0f75f5d6ba0501be7b1212d3e9f9102d2
  - **Accept**: application/vnd.wdt+json; version=1
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
@@ -157,11 +149,7 @@ This endpoint does not need any parameter.
 
 ### HTTP request headers
 
-<<<<<<< HEAD
  - **Content-Type**: application/json
-=======
- - **Content-Type**: application/vnd.wdt+json; version=1
->>>>>>> b4b592f0f75f5d6ba0501be7b1212d3e9f9102d2
  - **Accept**: application/vnd.wdt+json; version=1
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
@@ -210,11 +198,7 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
-<<<<<<< HEAD
  - **Content-Type**: application/json
-=======
- - **Content-Type**: application/vnd.wdt+json; version=1
->>>>>>> b4b592f0f75f5d6ba0501be7b1212d3e9f9102d2
  - **Accept**: application/vnd.wdt+json; version=1
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
@@ -265,11 +249,7 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
-<<<<<<< HEAD
  - **Content-Type**: application/json
-=======
- - **Content-Type**: application/vnd.wdt+json; version=1
->>>>>>> b4b592f0f75f5d6ba0501be7b1212d3e9f9102d2
  - **Accept**: application/vnd.wdt+json; version=1
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
