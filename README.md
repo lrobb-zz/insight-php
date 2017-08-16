@@ -75,7 +75,11 @@ try {
 
 ## Documentation for API Endpoints
 
+<<<<<<< HEAD
 All URIs are relative to *https://insight.api.wdtinc.com*
+=======
+All URIs are relative to *http://insight.api.wdtinc.com*
+>>>>>>> b4b592f0f75f5d6ba0501be7b1212d3e9f9102d2
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------

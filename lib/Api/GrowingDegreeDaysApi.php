@@ -135,7 +135,11 @@ class GrowingDegreeDaysApi
         if (!is_null($_header_accept)) {
             $headerParams['Accept'] = $_header_accept;
         }
+<<<<<<< HEAD
         $headerParams['Content-Type'] = $this->apiClient->selectHeaderContentType(['application/json']);
+=======
+        $headerParams['Content-Type'] = $this->apiClient->selectHeaderContentType(['application/vnd.wdt+json; version=1']);
+>>>>>>> b4b592f0f75f5d6ba0501be7b1212d3e9f9102d2
 
         // query params
         if ($base !== null) {
@@ -255,7 +259,11 @@ class GrowingDegreeDaysApi
         if (!is_null($_header_accept)) {
             $headerParams['Accept'] = $_header_accept;
         }
+<<<<<<< HEAD
         $headerParams['Content-Type'] = $this->apiClient->selectHeaderContentType(['application/json']);
+=======
+        $headerParams['Content-Type'] = $this->apiClient->selectHeaderContentType(['application/vnd.wdt+json; version=1']);
+>>>>>>> b4b592f0f75f5d6ba0501be7b1212d3e9f9102d2
 
         // query params
         if ($base !== null) {
@@ -377,7 +385,11 @@ class GrowingDegreeDaysApi
         if (!is_null($_header_accept)) {
             $headerParams['Accept'] = $_header_accept;
         }
+<<<<<<< HEAD
         $headerParams['Content-Type'] = $this->apiClient->selectHeaderContentType(['application/json']);
+=======
+        $headerParams['Content-Type'] = $this->apiClient->selectHeaderContentType(['application/vnd.wdt+json; version=1']);
+>>>>>>> b4b592f0f75f5d6ba0501be7b1212d3e9f9102d2
 
         // query params
         if ($base !== null) {

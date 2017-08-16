@@ -214,7 +214,11 @@ class AssetsApi
         if (!is_null($_header_accept)) {
             $headerParams['Accept'] = $_header_accept;
         }
+<<<<<<< HEAD
         $headerParams['Content-Type'] = $this->apiClient->selectHeaderContentType(['application/json']);
+=======
+        $headerParams['Content-Type'] = $this->apiClient->selectHeaderContentType(['application/vnd.wdt+json; version=1']);
+>>>>>>> b4b592f0f75f5d6ba0501be7b1212d3e9f9102d2
 
         // path params
         if ($asset_uuid !== null) {
@@ -298,7 +302,11 @@ class AssetsApi
         if (!is_null($_header_accept)) {
             $headerParams['Accept'] = $_header_accept;
         }
+<<<<<<< HEAD
         $headerParams['Content-Type'] = $this->apiClient->selectHeaderContentType(['application/json']);
+=======
+        $headerParams['Content-Type'] = $this->apiClient->selectHeaderContentType(['application/vnd.wdt+json; version=1']);
+>>>>>>> b4b592f0f75f5d6ba0501be7b1212d3e9f9102d2
 
 
         // for model (json/xml)
@@ -380,7 +388,11 @@ class AssetsApi
         if (!is_null($_header_accept)) {
             $headerParams['Accept'] = $_header_accept;
         }
+<<<<<<< HEAD
         $headerParams['Content-Type'] = $this->apiClient->selectHeaderContentType(['application/json']);
+=======
+        $headerParams['Content-Type'] = $this->apiClient->selectHeaderContentType(['application/vnd.wdt+json; version=1']);
+>>>>>>> b4b592f0f75f5d6ba0501be7b1212d3e9f9102d2
 
         // path params
         if ($asset_uuid !== null) {
@@ -476,7 +488,11 @@ class AssetsApi
         if (!is_null($_header_accept)) {
             $headerParams['Accept'] = $_header_accept;
         }
+<<<<<<< HEAD
         $headerParams['Content-Type'] = $this->apiClient->selectHeaderContentType(['application/json']);
+=======
+        $headerParams['Content-Type'] = $this->apiClient->selectHeaderContentType(['application/vnd.wdt+json; version=1']);
+>>>>>>> b4b592f0f75f5d6ba0501be7b1212d3e9f9102d2
 
         // path params
         if ($asset_uuid !== null) {

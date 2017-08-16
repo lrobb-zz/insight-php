@@ -88,7 +88,11 @@ class Configuration
      *
      * @var string
      */
+<<<<<<< HEAD
     protected $host = 'https://insight.api.wdtinc.com';
+=======
+    protected $host = 'http://insight.api.wdtinc.com';
+>>>>>>> b4b592f0f75f5d6ba0501be7b1212d3e9f9102d2
 
     /**
      * Timeout (second) of the HTTP request, by default set to 0, no timeout
