@@ -4,7 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | **string** | UUID | [optional] 
-**description** | **string** |  | [optional] 
+**description** | **map[string,string]** |  | [optional] 
 **geometries** | [**\Swagger\Client\Model\Geometry[]**](Geometry.md) |  | [optional] 
 **centroid** | [**\Swagger\Client\Model\AssetCentroid**](AssetCentroid.md) |  | [optional] 
 
