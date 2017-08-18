@@ -57,7 +57,6 @@ class Asset implements ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'string',
         'description' => 'string',
-        'type' => 'string',
         'geometries' => '\Swagger\Client\Model\Geometry[]',
         'centroid' => '\Swagger\Client\Model\AssetCentroid'
     ];
@@ -69,7 +68,6 @@ class Asset implements ArrayAccess
     protected static $swaggerFormats = [
         'id' => null,
         'description' => null,
-        'type' => null,
         'geometries' => null,
         'centroid' => null
     ];
@@ -91,7 +89,6 @@ class Asset implements ArrayAccess
     protected static $attributeMap = [
         'id' => 'id',
         'description' => 'description',
-        'type' => 'type',
         'geometries' => 'geometries',
         'centroid' => 'centroid'
     ];
@@ -104,7 +101,6 @@ class Asset implements ArrayAccess
     protected static $setters = [
         'id' => 'setId',
         'description' => 'setDescription',
-        'type' => 'setType',
         'geometries' => 'setGeometries',
         'centroid' => 'setCentroid'
     ];
@@ -117,7 +113,6 @@ class Asset implements ArrayAccess
     protected static $getters = [
         'id' => 'getId',
         'description' => 'getDescription',
-        'type' => 'getType',
         'geometries' => 'getGeometries',
         'centroid' => 'getCentroid'
     ];
@@ -155,7 +150,6 @@ class Asset implements ArrayAccess
     {
         $this->container['id'] = isset($data['id']) ? $data['id'] : null;
         $this->container['description'] = isset($data['description']) ? $data['description'] : null;
-        $this->container['type'] = isset($data['type']) ? $data['type'] : null;
         $this->container['geometries'] = isset($data['geometries']) ? $data['geometries'] : null;
         $this->container['centroid'] = isset($data['centroid']) ? $data['centroid'] : null;
     }
@@ -223,27 +217,6 @@ class Asset implements ArrayAccess
     public function setDescription($description)
     {
         $this->container['description'] = $description;
-
-        return $this;
-    }
-
-    /**
-     * Gets type
-     * @return string
-     */
-    public function getType()
-    {
-        return $this->container['type'];
-    }
-
-    /**
-     * Sets type
-     * @param string $type
-     * @return $this
-     */
-    public function setType($type)
-    {
-        $this->container['type'] = $type;
 
         return $this;
     }
