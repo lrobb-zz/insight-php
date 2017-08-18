@@ -56,7 +56,7 @@ class Asset implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'string',
-        'description' => 'string',
+        'description' => 'map[string,string]',
         'geometries' => '\Swagger\Client\Model\Geometry[]',
         'centroid' => '\Swagger\Client\Model\AssetCentroid'
     ];
@@ -202,7 +202,7 @@ class Asset implements ArrayAccess
 
     /**
      * Gets description
-     * @return string
+     * @return map[string,string]
      */
     public function getDescription()
     {
@@ -211,7 +211,7 @@ class Asset implements ArrayAccess
 
     /**
      * Sets description
-     * @param string $description
+     * @param map[string,string] $description
      * @return $this
      */
     public function setDescription($description)
